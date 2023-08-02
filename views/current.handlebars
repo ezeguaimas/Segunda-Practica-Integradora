@@ -1,0 +1,11 @@
+<div class="container">
+  {{#if user}}
+    <h1>{{msg}}</h1>
+    <h2>{{user.name}}</h2>
+    <h4>{{user.email}}</h4>
+    <h4>Rol: {{user.userRole}}</h4>
+    <h4>DOB: {{user.dateOfBirth}}</h4>
+  {{else}}
+    <h1>{{msg}}</h1>
+  {{/if}}
+</div>
